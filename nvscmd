@@ -89,10 +89,10 @@ loop:
             @ target = -1
         endif
         if (${temp} < 36 && ${temp} >= 31) then
-            @ target = 50
+            @ target = 35
         endif
         if (${temp} < 43 && ${temp} >= 38) then
-            @ target = 55
+            @ target = 50
         endif
         if (${temp} < 49 && ${temp} >= 44) then
             @ target = 60
